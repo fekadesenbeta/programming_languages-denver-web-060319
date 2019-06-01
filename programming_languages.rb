@@ -18,6 +18,8 @@ def reformat_languages(languages)
       type.each do |a, b|
         binding.pry
         a.each do |c, d|
+          binding.pry
+          return a
         end
       end
     end
