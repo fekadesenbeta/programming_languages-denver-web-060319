@@ -18,3 +18,5 @@ def reformat_languages(languages)
       binding.pry
     end
 end
+
+#new hash of keys/languages  => another hash of the style and type
