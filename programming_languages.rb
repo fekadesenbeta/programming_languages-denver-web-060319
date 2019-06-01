@@ -15,9 +15,11 @@ languages = {
 def reformat_languages(languages)
   new_hash = {}
     languages.each do |type, style|
-      binding.pry
+      
       type.each do |a, b|
-        
+        binding.pry
+        a.each do |c, d|
+        end
       end
     end
 end
