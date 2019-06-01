@@ -12,7 +12,7 @@ languages = {
     },
   } 
 }
-def reformat_languages(languages)
+def reformat_languages
   new_hash = {}
     languages.each do |type, style|
       type.each do |a, b|
@@ -22,5 +22,7 @@ def reformat_languages(languages)
       end
     end
 end
+
+reformat_languages
 
 #new hash of keys/languages  => another hash of the style and type
